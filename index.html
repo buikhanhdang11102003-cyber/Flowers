@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f9e8ee">
+  <title>Một món quà dành cho bạn ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="petals" aria-hidden="true"></div>
+
+  <main class="page">
+    <section id="welcome" class="screen welcome">
+      <div class="eyebrow">A LITTLE GIFT FOR YOU</div>
+      <div class="tiny-heart">♡</div>
+      <h1>Có một món quà<br>muốn gửi đến bạn</h1>
+      <p class="intro">Một điều nhỏ xinh, được chuẩn bị bằng cả tấm lòng.</p>
+      <button id="startButton" class="primary-button">Mở món quà <span>♡</span></button>
+      <div class="bottom-note">made with love</div>
+    </section>
+
+    <section id="flowerScreen" class="screen flower-screen hidden">
+      <div class="eyebrow">JUST FOR YOU</div>
+      <h1>Một bó hoa dành tặng bạn</h1>
+      <p class="flower-caption">Mong rằng những điều dịu dàng sẽ luôn tìm đến bạn.</p>
+      <div class="bouquet-frame">
+        <div class="halo"></div>
+        <img class="bouquet" src="images/bouquet.png" alt="Bó hoa được gửi tặng bạn">
+        <span class="spark spark-one">✧</span>
+        <span class="spark spark-two">✦</span>
+        <span class="spark spark-three">✧</span>
+      </div>
+      <button id="letterButton" class="primary-button">Có một lá thư nữa... <span>♡</span></button>
+    </section>
+
+    <section id="letterScreen" class="screen letter-screen hidden">
+      <div class="eyebrow">A LETTER FOR YOU</div>
+      <h1>Một vài lời muốn nói</h1>
+      <button id="envelopeButton" class="envelope" aria-label="Mở phong thư">
+        <span class="envelope-seal">♡</span>
+        <span class="envelope-hint">Chạm để mở thư</span>
+      </button>
+      <article id="letterPaper" class="letter-paper hidden">
+        <div class="letter-decoration">✿</div>
+        <h2>Gửi bạn,</h2>
+        <p id="letterText" class="letter-text"></p>
+        <p class="signature">Thân thương,<br><span>Người gửi ♡</span></p>
+      </article>
+      <button id="backButton" class="text-button hidden">Xem lại bó hoa ↶</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
